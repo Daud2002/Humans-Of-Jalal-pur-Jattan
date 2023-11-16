@@ -46,20 +46,38 @@
     flex-direction: column;
     align-items: center;
 }
+.member_1_row{
+    justify-content: center;
+
+}
+.member_1_row .image1{
+    margin-top: 60px;
+    border-radius: 30px;
+}
+.member_1_row .image2{
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.member_1_row .image3{
+    margin-top: 60px;
+    border-radius: 30px;
+}
 .team_members .member_1_row img{
     flex-wrap: wrap;
-    width: 70px;
-    height:70px;
+    width: 40px;
+    height:40px;
+    margin: 30px;
+    border-radius: 1px;
 }
 .team_members .member_2_row img{
     flex-wrap: wrap;
-    width: 50px;
-    height:50px;
+    width: 30px;
+    height:30px;
 }
 .team_members .member_3_row img{
     flex-wrap: wrap;
-    width: 50px;
-    height:50px;
+    width: 30px;
+    height:30px;
 }
 .footing{
     overflow: hidden;
