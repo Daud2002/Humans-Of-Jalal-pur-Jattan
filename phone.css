@@ -1,0 +1,125 @@
+.admin-section{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+    align-items: center;
+}
+.navbar ul li a{
+    font-size: 1.2rem;
+    padding: 0px 2px;
+}
+.logos{
+    text-align: center;
+}
+.navos{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#logo_fb{
+    position: absolute;
+    top: 20px;
+}
+#Ramzan_bazar{
+    flex-direction: column;
+    align-items: center;
+}
+#House_compaign{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#Plantation_compaign{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#Meat_distributer{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+#Blood_bank{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.team_members .member_1_row img{
+    flex-wrap: wrap;
+    width: 70px;
+    height:70px;
+}
+.team_members .member_2_row img{
+    flex-wrap: wrap;
+    width: 50px;
+    height:50px;
+}
+.team_members .member_3_row img{
+    flex-wrap: wrap;
+    width: 50px;
+    height:50px;
+}
+.footing{
+    overflow: hidden;
+}
+#admin{
+    overflow: hidden;
+}
+.project_page{
+    overflow: hidden;
+}
+.home{
+padding: 2px 11px;
+height: 768px;
+}
+.home p{
+    padding: 0px 50px;
+    font-size: 2rem;
+}
+.footing
+{
+    flex-direction: column;
+    height: 500px;
+}
+.footing_logo_intro p{
+display: none;
+}
+.footing_project h2{
+    display: none;
+}
+.footing ul{
+    align-items: center;
+}
+.footing_contact_info h2{
+
+    display: none;
+}
+.footing_contact_info{
+    margin-top: 30px;
+}
+.footing_logo_intro img{
+    height: 80px;
+    width: 80px;
+}
+.project_writing{
+    margin-left: 155px;
+    margin-right: 133px;
+}
+.project_makan{
+    margin-left: 155px;
+    margin-right: 133px;
+}
+.project_plant{
+    margin-left: 155px;
+    margin-right: 133px;
+}
+.project_meat{
+    margin-left: 155px;
+    margin-right: 133px;
+}
+.project_blood{
+    margin-left: 155px;
+    margin-right: 133px;
+}

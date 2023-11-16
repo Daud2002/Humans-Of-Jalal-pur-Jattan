@@ -1,0 +1,816 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+@media (max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+.headers{
+    font-size: 4.5rem;
+}
+/* Navbar */
+
+.navbar {
+    /* border: 2px solid red; */
+    display: flex;
+    border-radius: 20px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    position: relative;
+    position: sticky;
+}
+
+
+.navbar::before {
+    content: "";
+    background-color: rgb(115, 115, 114);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    cursor: pointer;
+    padding: 5px;
+}
+#logo_fb{
+ height:50px;
+ width: 50px;
+ position: absolute;
+ right: 10px;
+ margin: 15px;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+    padding: 29px;
+}
+
+.ul a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 0, 234);
+    /* border: 2px solid rgb(185, 185, 20); */
+    margin: 10px;
+    border-radius: 12px;
+    border: 1.5px solid;
+    border-color: #00ff2a #ddff00 #00ff2a #ddff00;
+    font-size: 1.7rem;
+    text-shadow: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/* .navbar li a:hover{
+} */
+#contact_hover:hover {
+
+    background-color: rgb(210, 243, 81);
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px #83ce8d;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: #ddff00 #ddff00 #ddff00 #ddff00;
+}
+
+
+/*Welcome Page*/
+
+.home {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(202, 43, 226); */
+    padding: 3px 133px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+}
+
+.home h1 {
+    background: linear-gradient(to right, #ddff00 0%, rgb(0, 255, 51) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    box-shadow: 10px black;
+    text-shadow: 5px 5px #558ABB;
+    font-family: Agbalumo;
+    /* background-clip: border-box; */
+}
+
+.home::before {
+    content: "";
+    background: url('./images/IMG_5484.png') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    top: 2px;
+
+}
+
+.home p {
+    text-align: center;
+    padding-left: 125px;
+    padding-right: 125px;
+    font-size: 2.3rem;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+.home h1 {
+    animation-name: daud1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes daud1 {
+    from {
+        font-size: 5rem;
+    }
+
+    to {
+        font-size: 5.5rem;
+    }
+}
+
+/* Admins Section*/
+
+
+
+.admin-section {
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-top: 85px;
+}
+
+.admins_1 {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.admins_1 img {
+    height: 230px;
+    width: 230px;
+
+}
+
+.admins_2 {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.admins_2 img {
+    height: 230px;
+    width: 230px;
+
+}
+
+.admins_3 {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.admins_3 img {
+    height: 230px;
+    width: 230px;
+
+}
+
+.admin-section h1 {
+    text-align: center;
+    font-family: blaka ink;
+    font-size: 2.5rem;
+}
+
+.admin_header {
+    margin-top: 120px;
+    text-align: center;
+    font-family: Agbalumo;
+}
+
+.hr_class {
+    text-decoration: underline;
+    margin: 10px 500px;
+
+}
+
+
+/*......................................................Project Section...................................... */
+
+
+.project_header {
+    margin-top: 40px;
+    text-align: center;
+    font-family: Agbalumo;
+}
+
+/* .project_container{
+
+    border: 1px solid red;
+    
+   
+} */
+
+
+
+
+/* Ramzan Bazar */
+
+
+#Ramzan_bazar {
+    display: flex;
+}
+
+#Ramzan_bazar img {
+    height: 300px;
+    width: 472px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.project_writing {
+    border: 1px solid black;
+    margin-left: 248px;
+    border-radius: 20px;
+    margin-right: 184px;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.project_writing p,
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Meat distributer */
+
+
+
+
+#Meat_distributer {
+    display: flex;
+}
+
+.project_meat {
+    border: 1px solid black;
+    margin-left: 220px;
+    border-radius: 20px;
+    margin-right: 185px;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#Meat_distributer .project_meat p{
+    font-family: Roboto Mono;
+}
+
+#Meat_distributer img {
+    height: 351px;
+    width: 471px;
+    border-radius: 30px;
+    margin-right: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#Meat_distributer p,
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Blood Bank */
+#Blood_bank {
+    display: flex;
+}
+
+.project_blood {
+    border: 1px solid black;
+    margin-left: 220px;
+    border-radius: 20px;
+    margin-right: 185px;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Blood_bank img {
+    height: 351px;
+    width: 471px;
+    border-radius: 30px;
+    margin-right: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.project_blood p,
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Plantation Compaign */
+
+#Plantation_compaign {
+    display: flex;
+}
+
+.project_plant {
+
+    border: 1px solid black;
+    margin-left: 220px;
+    border-radius: 20px;
+    margin-right: 185px;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Plantation_compaign img {
+    height: 351px;
+    width: 471px;
+    border-radius: 30px;
+    margin-right: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.project_plant p,
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+#Plantation_compaign .project_plant p{
+    font-family: Roboto Mono;
+}
+
+
+
+/* House Construction */
+
+#House_compaign {
+    display: flex;
+}
+
+.project_makan {
+
+    border: 1px solid black;
+    margin-left: 220px;
+    border-radius: 20px;
+    margin-right: 185px;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#House_compaign img {
+    height: 351px;
+    width: 471px;
+    border-radius: 30px;
+    margin-right: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.project_makan p,
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+/* ......................................................Team Members.......................................... */
+
+
+
+
+.team_members::before {
+    content: "";
+    background: url(./images/background.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 156%;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 93px;
+    opacity: 0.05;
+}
+/* .team_members{
+    border: 1px solid red;
+} */
+
+
+
+/* Daud */
+.member_1_row{
+    display: flex;
+}
+.header_daud{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 60px;
+    font-family: Agbalumo;
+}
+.image1{
+    text-align: center;
+}
+.image1 img{
+    margin: 65px;
+    margin-top: 150px;
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+/* Amer Bhai */
+
+.image2{
+    text-align: center;
+}
+.image2 img {
+    margin: 49px;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+.team_members h4{
+    font-size: 2.5rem;
+}
+
+/* Ahmad */
+
+.image3{
+    text-align: center;
+}
+.image3 img{
+    margin: 65px;
+    margin-top: 150px;
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+
+/* Second Row */
+
+.member_2_row{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+.member_2_row h5{
+
+    font-size: 1.3rem;
+}
+.member_3_row h5{
+
+    font-size: 1.3rem;
+}
+
+/* Adan */
+
+.img1{
+    text-align: center;
+}
+.img1 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+    margin-left: 33px;
+}
+
+/* .................................................. Zareef */
+.img2{
+    text-align: center;
+}
+.img2 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+/* ..................................................Abu Bakar */
+
+.img3{
+    text-align: center;
+}
+.img3 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+/* ...................................................Dawood */
+
+.img4{
+    text-align: center;
+}
+.img4 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+
+
+
+/* ...................................................Hassan */
+
+.img5{
+    text-align: center;
+}
+.img5 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+
+
+
+/* ...................................................Mubeen */
+
+.img6{
+    text-align: center;
+}
+.img6 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+
+
+/* ....................................................Nadeem */
+
+.img7{
+    text-align: center;
+}
+.img7 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+/* .....................................................Member Third Row  */
+.member_3_row{
+    display: flex;
+    justify-content: center;
+}
+/* Mushahid Abbas */
+
+.img8{
+    text-align: center;
+}
+.img8 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+/* .......................................................Shah */
+
+.img9{
+    text-align: center;
+}
+.img9 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+/* .......................................................Zareef */
+
+.img10{
+    text-align: center;
+}
+.img10 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+/* .......................................................Zeeshan */
+.img11{
+    text-align: center;
+}
+.img11 img{
+    margin: 16px;
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* ................................................Contact_Us Page............................................... */
+
+
+
+.contact {
+    position: absolute;
+    top: 100px;
+    left: 72px;
+    color: white;
+    font-size: 2rem;
+}
+.contact h2{
+    margin: 20px;
+}
+.contact_background{
+    /* border: 1px solid red; */
+    position: absolute;
+    height: 82%;
+    width: 100%;
+
+}
+.back_image{
+    background-image: url('./images/contact_back.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 496px;
+    width: 1280px;
+    opacity: 0.8;
+    z-index: -1;
+}
+.contact h1{
+    font-size: 1.9rem;
+    margin-top: 68px;
+    margin-left: 57px;
+}
+.contact ul{
+    margin-top: 30px;
+}
+.contact ul li{
+    margin-left: 77px;
+    margin-top: 10px;
+}
+
+
+
+
+/* .......................................................Footer */
+
+
+
+
+.footing{
+    /* border: 2px solid red; */
+    height: 300px;
+    margin-top:20px ;
+    display: flex;
+}
+
+.footing::before {
+    content: "";
+    background-color: #83ce8d;
+    position: absolute;
+    height: 52%;
+    width: 100%;
+    border-radius: 20px;
+    z-index: -1;
+    }
+
+    .footing img{
+        height: 167px;
+        width: 167px;
+        margin: 10px;
+        margin-left: 50px;
+        opacity: 0.8;
+    }
+    .footing_logo_intro{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .footing_logo_intro p{
+        margin: 10px;
+        font-size: 1.5rem;
+        color: #ffffff;
+        font-weight: bolder;
+    
+    }
+
+
+    /* ..............................................Footing Project................................. */
+
+    .footing_project{
+       
+       margin-left: 220px;
+    }
+    .footing_project h2{
+        padding: 25px;
+        font-size: 3rem;
+    }
+    .footing_project ul{
+        margin-top: 20px;
+        font-size: 2.5rem;
+        list-style:circle;
+    }
+    .footing_project ul li a{
+        text-decoration: none;
+        color: #ffffff;
+        margin-left: 25px;
+    }
+
+    /* .................................................footing_contact_info */
+
+    .footing_contact_info{
+        margin-left: 220px;
+    }
+    .footing_contact_info h2{
+        padding: 25px;
+        font-size: 3rem;
+    }
+    /* .footing_contact_info p{
+        font-size: 20px;
+        margin: 20px;
+        margin-top: 50px;
+    } */
+
+
+
+    /* .................................................Footing Logo Whatsapp */
+    #footing_logo_whatsapp{
+        display: flex;
+        margin-top: 25px;
+    }
+    #footing_logo_whatsapp ion-icon{
+        height: 25px;
+        width: 25px;
+    }
+    #footing_logo_whatsapp p{
+        margin-left: 10px;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+    /* ...................................................Footing Email */
+
+    #footing_email{
+        display: flex;
+        margin-top: 10px;
+    }
+    #footing_email ion-icon{
+        height: 25px;
+        width: 25px;
+    }
+    #footing_email p{
+        margin-left: 10px;
+        font-size: 2rem;
+        color: #ffffff;
+    }
