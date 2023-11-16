@@ -90,7 +90,7 @@
 }
 .home{
 padding: 2px 11px;
-height: 768px;
+height: 398px;
 }
 .home p{
     padding: 0px 50px;
@@ -107,9 +107,17 @@ display: none;
 .footing_project h2{
     display: none;
 }
-.footing ul{
-    align-items: center;
+.footing_project ul li a{
+font-size: 2rem;
+margin: 0px;
 }
+.footing_project ul li{
+    padding-right: 30px;
+}
+/* .footing ul{
+    align-items: center;
+    
+} */
 .footing_contact_info h2{
 
     display: none;
@@ -140,4 +148,15 @@ display: none;
 .project_blood{
     margin-left: 155px;
     margin-right: 133px;
+}
+.footing::before{
+    height: 69%;
+}
+#footing_logo_whatsapp p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.footing_email p{
+    margin: 0px;
+    
 }
