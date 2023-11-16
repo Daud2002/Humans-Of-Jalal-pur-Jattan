@@ -175,3 +175,21 @@ margin: 10px;
             .img6 img{
                 margin: 10px;
                 }
+
+
+                .home h1 {
+                    animation-name: daud1;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                
+                }
+                
+                @keyframes daud1 {
+                    from {
+                        font-size: 4.5rem;
+                    }
+                
+                    to {
+                        font-size: 5rem;
+                    }
+                }
