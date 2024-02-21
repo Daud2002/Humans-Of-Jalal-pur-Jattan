@@ -26,14 +26,15 @@ html{
     border-radius: 20px;
     /* margin-left: 10px;
     margin-right: 10px; */
-    position: relative;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
 }
 
 
 .navbar::before {
     content: "";
-    background-color: rgb(115, 115, 114);
+    background: rgb(120, 210, 76);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -42,41 +43,63 @@ html{
 }
 
 .logo {
-    width: 80px;
-    height: 80px;
+    width: 58px;
+    height: 58px;
     justify-content: center;
     cursor: pointer;
     padding: 5px;
+    margin-left: 20px;
 }
 #logo_fb{
  height:50px;
  width: 50px;
- position: absolute;
- right: 10px;
- margin: 15px;
+ position: fixed;
+ bottom: 30px;
+ right: 30px;
+ border: 2px solid green;
+ border-radius: 30px;
+ color: #83ce8d;
 }
 
 .ul {
     list-style: none;
     display: flex;
-    padding: 29px;
+    padding: 25px 29px
 }
 
 .ul a {
     text-decoration: none;
-    padding: 5px;
-    color: rgb(255, 0, 234);
+    padding: 0px 5px;
+    color: rgb(0, 132, 255);
+    
     /* border: 2px solid rgb(185, 185, 20); */
     margin: 10px;
     border-radius: 12px;
-    border: 1.5px solid;
-    border-color: #00ff2a #ddff00 #00ff2a #ddff00;
-    font-size: 1.7rem;
+    /* border: 1.5px solid;
+    border-color: #00ff2a #ddff00 #00ff2a #ddff00; */
+    font-size: 2rem;
     text-shadow: #000000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-weight: bolder;
+    border: 1px solid rgb(186, 231, 114);
+    padding: 5px;
+    backdrop-filter:  blur(10px);
+}
+.ul a:hover{
+    animation-name: navanimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    background-color: #e8f2b0;
+    color: green;
 }
 
+@keyframes navanimation {
+    from{
+        font-size: 2rem;
+    }
+    to{
+        font-size: 2.2rem;
+    }
+}
 /* .navbar li a:hover{
 } */
 #contact_hover:hover {
@@ -100,15 +123,16 @@ html{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 400px;
+    height: 580px;
 }
 
 .home h1 {
     background: linear-gradient(to right, #ddff00 0%, rgb(0, 255, 51) 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
-    box-shadow: 10px black;
+    box-shadow: inset 10px black;
     text-shadow: 5px 5px #558ABB;
     font-family: Agbalumo;
     /* background-clip: border-box; */
@@ -136,22 +160,21 @@ html{
 }
 
 .home h1 {
-    animation-name: daud1;
+    animation-name: homeanimation;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 
 }
 
-@keyframes daud1 {
+@keyframes homeanimation {
     from {
         font-size: 5rem;
     }
-
+    
     to {
         font-size: 5.5rem;
     }
 }
-
 /* Admins Section*/
 
 
@@ -163,10 +186,11 @@ html{
 }
 
 .admins_1 {
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     margin: 10px;
     text-align: center;
     border-radius: 30px;
+    margin-top: 30px;
 }
 
 .admins_1 img {
@@ -176,7 +200,7 @@ html{
 }
 
 .admins_2 {
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     margin: 10px;
     text-align: center;
     border-radius: 30px;
@@ -187,12 +211,15 @@ html{
     width: 230px;
 
 }
-
+.project_pag{
+    justify-content: space-between;
+}
 .admins_3 {
-    border: 1px solid rgb(0, 0, 0);
+    /* border: 1px solid rgb(0, 0, 0); */
     margin: 10px;
     text-align: center;
     border-radius: 30px;
+    margin-top: 30px;
 }
 
 .admins_3 img {
@@ -200,7 +227,10 @@ html{
     width: 230px;
 
 }
-
+.admins_border{
+    margin-top: 20px;
+    border-radius: 30px;
+}
 .admin-section h1 {
     text-align: center;
     font-family: blaka ink;
@@ -208,7 +238,7 @@ html{
 }
 
 .admin_header {
-    margin-top: 120px;
+    margin-top: 70px;
     text-align: center;
     font-family: Agbalumo;
 }
@@ -216,7 +246,7 @@ html{
 .hr_class {
     text-decoration: underline;
     margin: 10px 500px;
-
+    
 }
 
 
