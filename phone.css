@@ -46,20 +46,38 @@
     flex-direction: column;
     align-items: center;
 }
+.member_1_row{
+    justify-content: center;
+
+}
+.member_1_row .image1{
+    margin-top: 60px;
+    border-radius: 30px;
+}
+.member_1_row .image2{
+    margin-top: 10px;
+    border-radius: 30px;
+}
+.member_1_row .image3{
+    margin-top: 60px;
+    border-radius: 30px;
+}
 .team_members .member_1_row img{
     flex-wrap: wrap;
-    width: 70px;
-    height:70px;
+    width: 40px;
+    height:40px;
+    margin: 30px;
+    border-radius: 1px;
 }
 .team_members .member_2_row img{
     flex-wrap: wrap;
-    width: 50px;
-    height:50px;
+    width: 30px;
+    height:30px;
 }
 .team_members .member_3_row img{
     flex-wrap: wrap;
-    width: 50px;
-    height:50px;
+    width: 30px;
+    height:30px;
 }
 .footing{
     overflow: hidden;
@@ -72,7 +90,7 @@
 }
 .home{
 padding: 2px 11px;
-height: 768px;
+height: 398px;
 }
 .home p{
     padding: 0px 50px;
@@ -89,9 +107,17 @@ display: none;
 .footing_project h2{
     display: none;
 }
-.footing ul{
-    align-items: center;
+.footing_project ul li a{
+font-size: 2rem;
+margin: 0px;
 }
+.footing_project ul li{
+    padding-right: 30px;
+}
+/* .footing ul{
+    align-items: center;
+    
+} */
 .footing_contact_info h2{
 
     display: none;
@@ -104,22 +130,69 @@ display: none;
     width: 80px;
 }
 .project_writing{
-    margin-left: 155px;
-    margin-right: 133px;
+    margin-left: 15px;
+    margin-right: 13px;
 }
 .project_makan{
-    margin-left: 155px;
-    margin-right: 133px;
+    margin-left: 15px;
+    margin-right: 13px;
 }
 .project_plant{
-    margin-left: 155px;
-    margin-right: 133px;
+    margin-left: 15px;
+    margin-right: 13px;
 }
 .project_meat{
-    margin-left: 155px;
-    margin-right: 133px;
+    margin-left: 15px;
+    margin-right: 13px;
 }
 .project_blood{
-    margin-left: 155px;
-    margin-right: 133px;
+    margin-left: 15px;
+    margin-right: 13px;
 }
+.footing::before{
+    height: 69%;
+}
+#footing_logo_whatsapp p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.footing_email p{
+    margin: 0px;
+    
+}
+.img1 img{
+    margin: 10px;
+}
+.img2 img{
+margin: 10px;
+}
+.img3 img{
+    margin: 10px;
+    }
+    .img4 img{
+        margin: 10px;
+        }
+        .img5 img{
+            margin: 10px;
+            }
+            .img6 img{
+                margin: 10px;
+                }
+
+
+                .home h1 {
+                    animation-name: daud1;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                
+                }
+                
+                @keyframes daud1 {
+                    from {
+                        font-size: 4.5rem;
+                    }
+                
+                    to {
+                        font-size: 5rem;
+                    }
+                }

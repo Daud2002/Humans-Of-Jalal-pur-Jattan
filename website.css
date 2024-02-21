@@ -449,7 +449,7 @@ h3 {
 
 
 
-
+/* 
 .team_members::before {
     content: "";
     background: url(./images/background.jpg) no-repeat center center/cover;
@@ -459,7 +459,7 @@ h3 {
     border-radius: 20px;
     margin-top: 93px;
     opacity: 0.05;
-}
+} */
 /* .team_members{
     border: 1px solid red;
 } */
